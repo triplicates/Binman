@@ -299,7 +299,7 @@
                         <label for="FIO">ФИО</label><br>
                         <input name="FIO" type="text" placeholder="Введите ФИО"><br>
                         <label for="job">Вакансия</label><br>   
-                        <input name="job" type="text" id="jobs" placeholder="Выберите вакансию">
+                        <input name="job" type="text" id="jobs" autocomplete="off" placeholder="Выберите вакансию">
                         <label id="select" for="job"><img src="./icons/select.png" alt=""></label>
                     
                         <div class="select_job">
@@ -343,8 +343,6 @@
                                     <input id="file_load" name="file" type="file">
                                     <label id="file_load_label" for="file_load">Файл не выбран</label><br>
                             </div>
-                    </form>
-
                     <h2>Оценка Соискателя</h2>
                     <div class="rayting-panel">
                         <table>
@@ -364,8 +362,9 @@
                 
                 <div class="buttons-panel">
                     <input id="cancel" type="button" value="Отменить">
-                    <input id="add" type="button" value="Добавить Соискателя">
+                    <input id="add" type="submit" value="Добавить Соискателя">
                 </div>
+            </form>
             </div>
         </div>
     </div>
