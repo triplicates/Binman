@@ -3,7 +3,7 @@ It`s project - test task for Binman company.
 
 The layout is quite weak, but there is a place to be in my profile I started with this
 
-Site: https://fraidx.github.io/Binman/
+Site: https://triplicates.github.io/Binman/
 
 ![layout image](img/bmpres.png)
 
